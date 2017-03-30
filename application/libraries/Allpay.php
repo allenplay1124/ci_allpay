@@ -18,7 +18,12 @@ class Allpay extends AllInOne
         $this->HashIV = $this->_ci->config->item('HashIV');
         $this->MerchantID = $this->_ci->config->item('MerchantID');
     }
-
+    /**
+     * 取得回傳訊息，相對應語言資訊
+     * @param  string $type 類型
+     * @param  string $key  關鍵字
+     * @return string 訊息
+     */
     public function getPaymentMsg($type = '', $key = '')
     {
         $this->_ci->lang->laod('allpay');
@@ -64,8 +69,8 @@ class Allpay extends AllInOne
         $msg_key['MethodItem']['Credit'] = lang('txt_MethodItem_Credit');
         $msg_key['MethodItem']['COD'] = lang('txt_MethodItem_COD');
 
-        if (isset($msg_key[$_str_type][$_str_key])) {
-            return $msg_key[$_str_type][$_str_key];
+        if (isset($msg_key[$type][$key])) {
+            return $msg_key[$type][$key];
         } else {
             return false;
         }
