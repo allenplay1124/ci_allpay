@@ -1,0 +1,43 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+//paymentMethod 付款方式
+$lang['txt_Method_ALL'] = '不指定付款方式';
+$lang['txt_Method_Credi'] = '信用卡付費';
+$lang['txt_Method_WebATM'] = '網路 ATM';
+$lang['txt_Method_ATM'] = '自動櫃員機';
+$lang['txt_Method_CVS'] = '超商代碼';
+$lang['txt_Method_BARCODE'] = '超商條碼';
+$lang['txt_Method_Alipay'] = '支付寶';
+$lang['txt_Method_Tenpay'] = '財付通';
+$lang['txt_Method_TopUpUsed'] = '儲值消費';
+//PaymentMethodItem 付款方式子項目
+$lang['txt_MethodItem_None'] = '不指定';
+$lang['txt_MethodItem_WebATM_TAISHIN'] = '台新銀行';
+$lang['txt_MethodItem_WebATM_ESUN'] = '玉山銀行';
+$lang['txt_MethodItem_WebATM_HUANAN'] = '華南銀行';
+$lang['txt_MethodItem_WebATM_BO'] = '台灣銀行';
+$lang['txt_MethodItem_WebATM_CHINATRUST'] = '中國信託';
+$lang['txt_MethodItem_WebATM_FIRST'] = '第一銀行';
+$lang['txt_MethodItem_WebATM_CATHAY'] = '國泰世華';
+$lang['txt_MethodItem_WebATM_MEGA'] = '兆豐銀行';
+$lang['txt_MethodItem_WebATM_YUANTA'] = '元大銀行';
+$lang['txt_MethodItem_WebATM_LAND'] = '土地銀行';
+$lang['txt_MethodItem_ATM_TAISHIN'] = '台新銀行';
+$lang['txt_MethodItem_ATM_ESUN'] = '玉山銀行';
+$lang['txt_MethodItem_ATM_HUANAN'] = '華南銀行';
+$lang['txt_MethodItem_ATM_BOT'] = '台灣銀行';
+$lang['txt_MethodItem_ATM_FUBON'] = '台北富邦';
+$lang['txt_MethodItem_ATM_CHINATRUST'] = '中國信託';
+$lang['txt_MethodItem_ATM_FIRST'] = '第一銀行';
+$lang['txt_MethodItem_CVS'] = '超商代碼繳款';
+$lang['txt_MethodItem_CVS_OK'] = 'OK 超商代碼繳款';
+$lang['txt_MethodItem_CVS_FAMILY'] = '全家超商代碼繳款';
+$lang['txt_MethodItem_CVS_HILIFE'] = '萊爾富超商代碼繳款';
+$lang['txt_MethodItem_CVS_IBON'] = '7-11 ibon 代碼繳款';
+$lang['txt_MethodItem_Alipay'] = '支付寶';
+$lang['txt_MethodItem_Tenpay'] = '財付通';
+$lang['txt_MethodItem_TopUpUsed_AllPay'] = '儲值/餘額消費(歐付寶)';
+$lang['txt_MethodItem_TopUpUsed_ESUN'] = '儲值/餘額消費(玉山)';
+$lang['txt_MethodItem_BARCODE'] = '超商條碼繳款';
+$lang['txt_MethodItem_Credit'] = '信用卡(MasterCard/JCB/VISA)';
+$lang['txt_MethodItem_COD'] = '貨到付款';
